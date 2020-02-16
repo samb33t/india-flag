@@ -1,0 +1,257 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      9947,        249]
+NotebookOptionsPosition[      8935,        221]
+NotebookOutlinePosition[      9299,        237]
+CellTagsIndexPosition[      9256,        234]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Happy Republic Day", "Title",
+ CellChangeTimes->{{3.789002544281793*^9, 
+  3.7890025566997833`*^9}},ExpressionUUID->"dbfe02c1-c608-4817-b219-\
+ea9b88343812"],
+
+Cell[CellGroupData[{
+
+Cell["Main plot", "Section",
+ CellChangeTimes->{{3.789002564876705*^9, 
+  3.789002566280336*^9}},ExpressionUUID->"ca153f65-b35b-4f3e-9bbc-\
+b8d2271361fb"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Animate", "[", "\[IndentingNewLine]", 
+  RowBox[{
+   RowBox[{"Plot", "[", "\n", " ", 
+    RowBox[{
+     RowBox[{"Evaluate", "[", 
+      RowBox[{"Table", "[", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"Sin", "[", 
+          RowBox[{"x", "-", "a"}], "]"}], " ", "+", " ", "i"}], ",", " ", 
+        RowBox[{"{", 
+         RowBox[{"i", ",", " ", "0", ",", " ", "15", ",", " ", "5"}], "}"}]}],
+        "]"}], "]"}], ",", " ", 
+     RowBox[{"{", 
+      RowBox[{"x", ",", " ", "0", ",", " ", "9"}], "}"}], ",", "\n", " ", 
+     RowBox[{"Axes", " ", "\[Rule]", " ", "None"}], ",", "\n", " ", 
+     RowBox[{"Filling", " ", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"1", " ", "->", " ", 
+         RowBox[{"{", "2", "}"}]}], ",", " ", 
+        RowBox[{"3", " ", "->", " ", 
+         RowBox[{"{", "4", "}"}]}]}], "}"}]}], ",", "\n", " ", 
+     RowBox[{"FillingStyle", " ", "\[Rule]", 
+      RowBox[{"Opacity", "[", "1", "]"}]}], ",", "\n", " ", 
+     RowBox[{"PlotStyle", "\[Rule]", " ", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Darker", "@", "Green"}], ",", " ", 
+        RowBox[{"Darker", "@", "Green"}], ",", " ", "Orange", ",", " ", 
+        "Orange"}], "}"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{"Epilog", "\[Rule]", " ", 
+      RowBox[{"Inset", "[", 
+       RowBox[{"chakra", ",", 
+        RowBox[{"{", 
+         RowBox[{"4.5", ",", 
+          RowBox[{"7.5", "+", 
+           RowBox[{"Sin", "[", "b", "]"}]}]}], "}"}]}], "]"}]}]}], "\n", " ", 
+    "]"}], ",", "\[IndentingNewLine]", 
+   RowBox[{"{", 
+    RowBox[{"a", ",", "0", ",", "6.28319"}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{"b", ",", "4.71239", ",", "10.9956"}], "}"}]}], 
+  "\[IndentingNewLine]", "]"}]], "Input",
+ CellChangeTimes->{{3.788994283133491*^9, 3.788994317264072*^9}, {
+  3.788994391717814*^9, 3.788994478077577*^9}, {3.78899456453334*^9, 
+  3.788994565374845*^9}, {3.788994605116988*^9, 3.788994614885934*^9}, {
+  3.788994821698057*^9, 3.788994824856698*^9}, {3.78899512125921*^9, 
+  3.7889951244595118`*^9}, {3.788995201082818*^9, 3.788995231362403*^9}, {
+  3.788995290013858*^9, 3.78899529229795*^9}, {3.78899536242789*^9, 
+  3.788995367099152*^9}, {3.788995486334414*^9, 3.788995528158247*^9}, {
+  3.788995559115158*^9, 3.788995617511733*^9}, {3.788995667942424*^9, 
+  3.7889956713521852`*^9}, {3.7889957561542473`*^9, 3.788995758164266*^9}, {
+  3.7889958699253483`*^9, 3.78899587304918*^9}, {3.7890012979276752`*^9, 
+  3.789001312289648*^9}, {3.789002366190213*^9, 3.789002367286048*^9}, {
+  3.789002409774263*^9, 3.7890024107549677`*^9}},
+ CellLabel->
+  "In[161]:=",ExpressionUUID->"6cab1ac7-f2c9-4a86-b631-480ad92db887"],
+
+Cell[BoxData[
+ TagBox[
+  StyleBox[
+   DynamicModuleBox[{$CellContext`a$$ = 
+    1.6755702636995315`, $CellContext`b$$ = 6.387965597201347, 
+    Typeset`show$$ = True, Typeset`bookmarkList$$ = {}, 
+    Typeset`bookmarkMode$$ = "Menu", Typeset`animator$$, Typeset`animvar$$ = 
+    1, Typeset`name$$ = "\"untitled\"", Typeset`specs$$ = {{
+      Hold[$CellContext`a$$], 0, 6.28319}, {
+      Hold[$CellContext`b$$], 4.71239, 10.9956}}, Typeset`size$$ = {
+    270., {81., 86.}}, Typeset`update$$ = 0, Typeset`initDone$$, 
+    Typeset`skipInitDone$$ = True, $CellContext`a$607875$$ = 
+    0, $CellContext`b$607876$$ = 0}, 
+    DynamicBox[Manipulate`ManipulateBoxes[
+     1, StandardForm, 
+      "Variables" :> {$CellContext`a$$ = 0, $CellContext`b$$ = 4.71239}, 
+      "ControllerVariables" :> {
+        Hold[$CellContext`a$$, $CellContext`a$607875$$, 0], 
+        Hold[$CellContext`b$$, $CellContext`b$607876$$, 0]}, 
+      "OtherVariables" :> {
+       Typeset`show$$, Typeset`bookmarkList$$, Typeset`bookmarkMode$$, 
+        Typeset`animator$$, Typeset`animvar$$, Typeset`name$$, 
+        Typeset`specs$$, Typeset`size$$, Typeset`update$$, Typeset`initDone$$,
+         Typeset`skipInitDone$$}, "Body" :> Plot[
+        Evaluate[
+         Table[
+         Sin[$CellContext`x - $CellContext`a$$] + $CellContext`i, \
+{$CellContext`i, 0, 15, 5}]], {$CellContext`x, 0, 9}, Axes -> None, 
+        Filling -> {1 -> {2}, 3 -> {4}}, FillingStyle -> Opacity[1], 
+        PlotStyle -> {
+          Darker[Green], 
+          Darker[Green], Orange, Orange}, Epilog -> 
+        Inset[$CellContext`chakra, {4.5, 7.5 + Sin[$CellContext`b$$]}]], 
+      "Specifications" :> {{$CellContext`a$$, 0, 6.28319, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}, {$CellContext`b$$, 4.71239, 10.9956, 
+         AppearanceElements -> {
+          "ProgressSlider", "PlayPauseButton", "FasterSlowerButtons", 
+           "DirectionButton"}}}, 
+      "Options" :> {
+       ControlType -> Animator, AppearanceElements -> None, DefaultBaseStyle -> 
+        "Animate", DefaultLabelStyle -> "AnimateLabel", SynchronousUpdating -> 
+        True, ShrinkingDelay -> 10.}, "DefaultOptions" :> {}],
+     ImageSizeCache->{307., {118., 123.}},
+     SingleEvaluation->True],
+    Deinitialization:>None,
+    DynamicModuleValues:>{},
+    SynchronousInitialization->True,
+    UndoTrackedVariables:>{Typeset`show$$, Typeset`bookmarkMode$$},
+    UnsavedVariables:>{Typeset`initDone$$},
+    UntrackedVariables:>{Typeset`size$$}], "Animate",
+   Deployed->True,
+   StripOnInput->False],
+  Manipulate`InterpretManipulate[1]]], "Output",
+ CellChangeTimes->{
+  3.788994275529292*^9, {3.788994319022835*^9, 3.7889943416998997`*^9}, 
+   3.788994393538043*^9, {3.788994424689352*^9, 3.788994479333803*^9}, 
+   3.788994566526287*^9, {3.7889946096654778`*^9, 3.7889946158246937`*^9}, 
+   3.788995232286889*^9, {3.788995284454522*^9, 3.788995292981082*^9}, 
+   3.788995368076771*^9, {3.788995502987686*^9, 3.788995529324593*^9}, {
+   3.788995567875231*^9, 3.7889956189912577`*^9}, 3.788995672199769*^9, 
+   3.7889957621083097`*^9, 3.7889958744081097`*^9, {3.789001299735141*^9, 
+   3.789001313140753*^9}, 3.7890023678355913`*^9, 3.789002411264154*^9, 
+   3.789002809352421*^9},
+ CellLabel->
+  "Out[161]=",ExpressionUUID->"621dc8fb-8b36-41eb-a499-38c4409cc770"]
+}, Open  ]]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Ashok Chakra design", "Section",
+ CellChangeTimes->{{3.789002595012425*^9, 
+  3.789002622606402*^9}},ExpressionUUID->"488ff718-a4e4-4b9a-a677-\
+5cf9f2e7faea"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"points", "=", 
+   RowBox[{"Transpose", "[", 
+    RowBox[{"Partition", "[", 
+     RowBox[{
+      RowBox[{"Most", "[", 
+       RowBox[{"Table", "[", 
+        RowBox[{
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"Cos", "[", "a", "]"}], ",", 
+           RowBox[{"Sin", "[", "a", "]"}]}], "}"}], ",", 
+         RowBox[{"{", 
+          RowBox[{"a", ",", "0", ",", 
+           RowBox[{"2", "\[Pi]"}], ",", 
+           RowBox[{"\[Pi]", "/", "12"}]}], "}"}]}], "]"}], "]"}], ",", "12"}],
+      "]"}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.788996357648263*^9, 3.788996365981138*^9}, {
+   3.788996598905067*^9, 3.788996660670109*^9}, {3.788996715954225*^9, 
+   3.788996720680147*^9}, {3.789001171576518*^9, 3.7890011780716543`*^9}, {
+   3.789001600662882*^9, 3.789001625860943*^9}, 3.789002671970942*^9},
+ CellLabel->
+  "In[159]:=",ExpressionUUID->"42b5d7bb-6407-45cd-8dbc-9158f75cf2dc"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"chakra", "=", 
+   RowBox[{"Show", "[", 
+    RowBox[{
+     RowBox[{"Graphics", "[", 
+      RowBox[{"{", 
+       RowBox[{
+        RowBox[{"Darker", "@", "Blue"}], ",", 
+        RowBox[{"Circle", "[", "]"}]}], "}"}], "]"}], ",", 
+     RowBox[{"ListLinePlot", "[", 
+      RowBox[{"points", ",", 
+       RowBox[{"PlotStyle", "\[Rule]", 
+        RowBox[{"Darker", "@", "Blue"}]}]}], "]"}], ",", 
+     RowBox[{"ImageSize", "\[Rule]", "50"}]}], "]"}]}], ";"}]], "Input",
+ CellChangeTimes->{{3.78900231469345*^9, 3.789002334309466*^9}, {
+  3.789002384090145*^9, 3.789002402521304*^9}, {3.789002646436241*^9, 
+  3.789002676568213*^9}},
+ CellLabel->
+  "In[160]:=",ExpressionUUID->"e482552c-129d-42fa-bb6e-6f6399248be8"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1360, 696},
+WindowMargins->{{0, Automatic}, {1, Automatic}},
+Magnification:>0.75 Inherited,
+FrontEndVersion->"12.0 for Linux x86 (64-bit) (April 8, 2019)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 163, 3, 74, "Title",ExpressionUUID->"dbfe02c1-c608-4817-b219-ea9b88343812"],
+Cell[CellGroupData[{
+Cell[768, 29, 154, 3, 52, "Section",ExpressionUUID->"ca153f65-b35b-4f3e-9bbc-b8d2271361fb"],
+Cell[CellGroupData[{
+Cell[947, 36, 2678, 58, 205, "Input",ExpressionUUID->"6cab1ac7-f2c9-4a86-b631-480ad92db887"],
+Cell[3628, 96, 3379, 66, 289, "Output",ExpressionUUID->"621dc8fb-8b36-41eb-a499-38c4409cc770"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[7056, 168, 164, 3, 52, "Section",ExpressionUUID->"488ff718-a4e4-4b9a-a677-5cf9f2e7faea"],
+Cell[7223, 173, 938, 23, 24, "Input",ExpressionUUID->"42b5d7bb-6407-45cd-8dbc-9158f75cf2dc"],
+Cell[8164, 198, 743, 19, 24, "Input",ExpressionUUID->"e482552c-129d-42fa-bb6e-6f6399248be8"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
